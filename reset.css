@@ -26,35 +26,28 @@ a:hover{
     font-size: 20px;
 }
 
-form{
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
 
-input{
-    display: block;
+.login-input > input{
     width: 100%;
-    background:#ebecec;
-    padding: 15px;
+    height: 50px;
+    margin-top: 25px;
     font-size: 1rem;
-    margin-bottom: 15px;
     text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    background: #ebecec;
     border: 0;
    
 }
-    
 input[type="submit"]{
     background: #93c4c5;
-    text-align: center;
-    font-weight: bold;
-    margin-top:15px;
-    color:#FFF;
-    
 }
+    
 
 
 #conta{
     font-size: 13px;
+    margin-top: 20px;
 
     
 }
@@ -66,17 +59,19 @@ fieldset{
     margin-left: auto;
     margin-right: auto;
     border-top: 15px solid #93c4c5;
-    
-  
 
 }
 
-span{
-    color: #0000FF;
+.span{
+    color: #1d2325;
+    font-size: 13px;
+    margin-top: 25px;
+    
 }
 
 #sublinhado{
     text-decoration: underline;
+    color: #0000FF;
 
 }
    
